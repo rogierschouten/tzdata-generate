@@ -2,6 +2,8 @@
 ## Synopsis
 
 This is (a portion of) the [IANA TZ database](https://www.iana.org/time-zones), represented as JSON. Use this module in combination with [timezonecomplete](https://www.npmjs.com/package/timezonecomplete).
+It is part of a set of similar modules:
+{{{modulesList}}}
 
 This module contains all zones{{{zonesDescription}}}.
 
@@ -19,7 +21,7 @@ In Node.JS, to get at the JSON data, simply do:
 var jsonData = require('{{{moduleName}}}');
 ```
 
-In a browser, use the [bundled UMD module](./{{{moduleName}}}.js):
+In a browser, use the bundled UMD module provided in {{{moduleName}}}.js.
 
 ```
 <!DOCTYPE html>

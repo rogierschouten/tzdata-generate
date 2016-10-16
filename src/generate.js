@@ -160,10 +160,6 @@ directories.forEach((dir) => {
         // read local package.json
         const localPackageJson = JSON.parse(fs.readFileSync(path.join(dirPath, "package.json")).toString());
         localPackageJson.name = moduleName;
-        // increment version
-        if (!justCreatedPackageJson) {
-            localPackageJson.version = semver.inc(localPackageJson.version, "patch");
-        }
         // administer dependencies
         if (moduleName && dependencies[moduleName] && dependencies[moduleName].length > 0) {
             localPackageJson.peerDependencies = {};
@@ -190,13 +186,21 @@ directories.forEach((dir) => {
             dependenciesDescription = "This module has peer dependency " + depsStr + ", because the data in this module has links to zones in those modules.";
         }
         const zones = Object.keys(zoneData[moduleName].zones).sort().join(", ");
+        let modulesList = "";
+        for (const zoneModule of Object.keys(zoneData)) {
+            if (modulesList) {
+                modulesList += "\n";
+            }
+            modulesList += "* " + zoneModule;
+        }
         const readmeVars = {
             zonesDescription,
             dependenciesDescription,
             moduleName: moduleName,
             jsName: toCamelCase(moduleName),
             tzVersion,
-            zones
+            zones,
+            modulesList
         };
         fs.writeFileSync(path.join(dirPath, "README.md"), readme(readmeVars));
     }
