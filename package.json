@@ -1,0 +1,25 @@
+{
+  "name": "tzdata-generate",
+  "version": "1.0.0",
+  "description": "Generator for all the tzdata-* packages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogierschouten/tzdata-generate"
+  },
+  "scripts": {
+    "clean": "./node_modules/.bin/rimraf ./dist/**/*.json ./dist/**/tzdata*.js",
+    "generate": "node src/generate.js",
+    "bundle": "node src/bundle.js",
+    "build": "npm run generate && npm run bundle",
+    "all": "npm run clean && npm run build"
+  },
+  "author": "Rogier Schouten <https://github.com/rogierschouten>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "handlebars": "^4.0.5",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "semver": "^5.3.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "tzdata-backward",
+  "version": "1.0.0",
+  "description": "(Part of) the IANA time zone database as a JSON file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogierschouten/tzdata-generate"
+  },
+  "main": "timezone-data.json",
+  "author": "Rogier Schouten <https://github.com/rogierschouten>",
+  "license": "MIT",
+  "peerDependencies": {
+    "tzdata-africa": "^1.0.0",
+    "tzdata-southamerica": "^1.0.0",
+    "tzdata-northamerica": "^1.0.0",
+    "tzdata-australasia": "^1.0.0",
+    "tzdata-asia": "^1.0.0",
+    "tzdata-europe": "^1.0.0",
+    "tzdata-etcetera": "^1.0.0"
+  }
+}

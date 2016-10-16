@@ -1,0 +1,12 @@
+{
+  "name": "tzdata-antarctica",
+  "version": "1.0.0",
+  "description": "(Part of) the IANA time zone database as a JSON file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rogierschouten/tzdata-generate"
+  },
+  "main": "timezone-data.json",
+  "author": "Rogier Schouten <https://github.com/rogierschouten>",
+  "license": "MIT"
+}
