@@ -23,7 +23,7 @@ This module contains all zones of IANA TZ database file 'asia'.
 
 ## TZ Database Version
 
-2016g
+2016h
 
 ## Use
 
