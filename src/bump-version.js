@@ -10,7 +10,9 @@ directories.forEach((dir) => {
     if (dir.indexOf("tzdata") === 0) {
         const dirPath = path.join(__dirname, "..", "dist", dir);
         // increment version in package.json
+        console.log(path.join(dirPath, "package.json"))
         const localPackageJson = JSON.parse(fs.readFileSync(path.join(dirPath, "package.json")).toString());
+        console.log("incrementing from", localPackageJson.version, "to", semver.inc(localPackageJson.version, "patch"));
         localPackageJson.version = semver.inc(localPackageJson.version, "patch");
         fs.writeFileSync(path.join(dirPath, "package.json"), JSON.stringify(localPackageJson, null, 2));
     }
