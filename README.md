@@ -9,6 +9,7 @@ Releasing a new version:
 - npm run all
 - node src/bump-version.js
 - commit and check changes
+- ensure .npmrc points to world
 - node src/publish.js
 - sync with Github
 - create a release tag
