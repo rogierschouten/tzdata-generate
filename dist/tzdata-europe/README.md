@@ -11,6 +11,7 @@ It is part of a set of similar modules:
 * tzdata-backward
 * tzdata-etcetera
 * tzdata-europe
+* tzdata-factory
 * tzdata-northamerica
 * tzdata-pacificnew
 * tzdata-southamerica

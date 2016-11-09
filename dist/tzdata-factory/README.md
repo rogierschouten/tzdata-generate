@@ -18,9 +18,9 @@ It is part of a set of similar modules:
 * tzdata-systemv
 * tzdata-backward-utc
 
-This module contains all zones of IANA TZ database file 'backward' that are old synonyms for Etc/UTC or Etc/GMT.
+This module contains all zones of IANA TZ database file 'factory'.
 
-This module has peer dependency tzdata-etcetera, because the data in this module has links to zones in those modules.
+
 
 ## TZ Database Version
 
@@ -31,21 +31,21 @@ This module has peer dependency tzdata-etcetera, because the data in this module
 In Node.JS, to get at the JSON data, simply do:
 
 ```javascript
-var jsonData = require('tzdata-backward-utc');
+var jsonData = require('tzdata-factory');
 ```
 
-In a browser, use the bundled UMD module provided in tzdata-backward-utc.js.
+In a browser, use the bundled UMD module provided in tzdata-factory.js.
 
 ```
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>tzdata-backward-utc example</title>
-    <script src="./tzdata-backward-utc.js"></script>
+    <title>tzdata-factory example</title>
+    <script src="./tzdata-factory.js"></script>
     <script>
         function onLoad() {
-            var data = tzdataBackwardUtc;
+            var data = tzdataFactory;
         }
     </script>
 </head>
@@ -60,4 +60,4 @@ MIT
 
 ## Zones in This Module
 
-GMT+0, GMT-0, GMT0, Greenwich, UCT, UTC, Universal
+Factory
