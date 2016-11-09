@@ -10,6 +10,6 @@ Releasing a new version:
 - node src/bump-version.js
 - commit and check changes
 - ensure .npmrc points to world
-- node src/publish.js
 - sync with Github
+- node src/publish.js
 - create a release tag
