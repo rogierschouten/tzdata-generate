@@ -24,7 +24,7 @@ This module has peer dependency tzdata-northamerica, because the data in this mo
 
 ## TZ Database Version
 
-2016i
+2016j
 
 ## Use
 

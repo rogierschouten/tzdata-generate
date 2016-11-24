@@ -24,7 +24,7 @@ This module contains all zones of IANA TZ database file 'antarctica'.
 
 ## TZ Database Version
 
-2016i
+2016j
 
 ## Use
 
