@@ -13,7 +13,11 @@
     "build": "npm run generate && npm run bundle",
     "all": "npm run clean && npm run build"
   },
-  "author": "Rogier Schouten <https://github.com/rogierschouten>",
+  "author": {
+    "name": "Rogier Schouten",
+	"url": "https://github.com/rogierschouten/",
+    "email": "github@workingcode.ninja"
+  },
   "license": "MIT",
   "devDependencies": {
     "browserify": "^13.1.0",
