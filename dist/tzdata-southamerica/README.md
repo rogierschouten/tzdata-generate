@@ -24,7 +24,7 @@ This module contains all zones of IANA TZ database file 'southamerica'.
 
 ## TZ Database Version
 
-2016j
+2017a
 
 ## Use
 
@@ -60,4 +60,4 @@ MIT
 
 ## Zones in This Module
 
-America/Anguilla, America/Antigua, America/Araguaina, America/Argentina/Buenos_Aires, America/Argentina/Catamarca, America/Argentina/Cordoba, America/Argentina/Jujuy, America/Argentina/La_Rioja, America/Argentina/Mendoza, America/Argentina/Rio_Gallegos, America/Argentina/Salta, America/Argentina/San_Juan, America/Argentina/San_Luis, America/Argentina/Tucuman, America/Argentina/Ushuaia, America/Aruba, America/Asuncion, America/Bahia, America/Belem, America/Boa_Vista, America/Bogota, America/Campo_Grande, America/Caracas, America/Cayenne, America/Cuiaba, America/Curacao, America/Dominica, America/Eirunepe, America/Fortaleza, America/Grenada, America/Guadeloupe, America/Guayaquil, America/Guyana, America/Kralendijk, America/La_Paz, America/Lima, America/Lower_Princes, America/Maceio, America/Manaus, America/Marigot, America/Montevideo, America/Montserrat, America/Noronha, America/Paramaribo, America/Port_of_Spain, America/Porto_Velho, America/Recife, America/Rio_Branco, America/Santarem, America/Santiago, America/Sao_Paulo, America/St_Barthelemy, America/St_Kitts, America/St_Lucia, America/St_Thomas, America/St_Vincent, America/Tortola, Antarctica/Palmer, Atlantic/South_Georgia, Atlantic/Stanley, Pacific/Easter, Pacific/Galapagos
+America/Anguilla, America/Antigua, America/Araguaina, America/Argentina/Buenos_Aires, America/Argentina/Catamarca, America/Argentina/Cordoba, America/Argentina/Jujuy, America/Argentina/La_Rioja, America/Argentina/Mendoza, America/Argentina/Rio_Gallegos, America/Argentina/Salta, America/Argentina/San_Juan, America/Argentina/San_Luis, America/Argentina/Tucuman, America/Argentina/Ushuaia, America/Aruba, America/Asuncion, America/Bahia, America/Belem, America/Boa_Vista, America/Bogota, America/Campo_Grande, America/Caracas, America/Cayenne, America/Cuiaba, America/Curacao, America/Dominica, America/Eirunepe, America/Fortaleza, America/Grenada, America/Guadeloupe, America/Guayaquil, America/Guyana, America/Kralendijk, America/La_Paz, America/Lima, America/Lower_Princes, America/Maceio, America/Manaus, America/Marigot, America/Montevideo, America/Montserrat, America/Noronha, America/Paramaribo, America/Port_of_Spain, America/Porto_Velho, America/Punta_Arenas, America/Recife, America/Rio_Branco, America/Santarem, America/Santiago, America/Sao_Paulo, America/St_Barthelemy, America/St_Kitts, America/St_Lucia, America/St_Thomas, America/St_Vincent, America/Tortola, Antarctica/Palmer, Atlantic/South_Georgia, Atlantic/Stanley, Pacific/Easter, Pacific/Galapagos
