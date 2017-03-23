@@ -24,7 +24,7 @@ This module has peer dependency tzdata-etcetera, because the data in this module
 
 ## TZ Database Version
 
-2017a
+2017b
 
 ## Use
 
