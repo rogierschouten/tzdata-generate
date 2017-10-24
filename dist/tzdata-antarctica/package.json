@@ -1,6 +1,6 @@
 {
   "name": "tzdata-antarctica",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",

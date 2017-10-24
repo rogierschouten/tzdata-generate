@@ -52,9 +52,12 @@ const tzVersion = inputDirName.slice("tzdata".length, inputDirName.length);
 console.log("generating for TZ version", tzVersion);
 
 const allFiles = fs.readdirSync(inputDir); // determine the tzdata modules to be generated
-const EXCLUDED = new RegExp('README|LICENSE|Makefile|CONTRIBUTING|checktab|checklinks|yearistype|iso3166|leapseconds|leap-seconds|NEWS|README|Theory|version|zone|zone1970|zoneinfo2tdf(\\.+)', 'i');
+const EXCLUDED = [
+    /README|LICENSE|Makefile|CONTRIBUTING|checktab|checklinks|yearistype|iso3166|leapseconds|leap-seconds|NEWS|README|Theory|version|zone|zone1970|calendars|zoneinfo2tdf(\\.+)/i,
+    /.*\..*/i
+];
 const zoneFiles = allFiles.filter((file) => {
-    return !EXCLUDED.test(file);
+    return !EXCLUDED.some((r) => r.test(file));
 });
 const zonePaths = zoneFiles.map((file) => {
     return path.relative(__dirname, path.join(inputDir, file));

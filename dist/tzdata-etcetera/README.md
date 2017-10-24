@@ -24,7 +24,7 @@ This module contains all zones of IANA TZ database file 'etcetera'.
 
 ## TZ Database Version
 
-2017b
+2017c
 
 ## Use
 
