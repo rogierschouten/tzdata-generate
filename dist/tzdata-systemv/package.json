@@ -1,6 +1,6 @@
 {
   "name": "tzdata-systemv",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",

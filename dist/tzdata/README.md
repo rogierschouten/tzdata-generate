@@ -24,7 +24,7 @@ This module contains all zones.
 
 ## TZ Database Version
 
-2017c
+2018c
 
 ## Use
 
