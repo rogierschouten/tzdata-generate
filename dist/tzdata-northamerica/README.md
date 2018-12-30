@@ -24,7 +24,7 @@ This module contains all zones of IANA TZ database file 'northamerica'.
 
 ## TZ Database Version
 
-2018g
+2018h
 
 ## Use
 
