@@ -24,7 +24,7 @@ This module contains all zones of IANA TZ database file 'africa'.
 
 ## TZ Database Version
 
-2018h
+2018i
 
 ## Use
 
