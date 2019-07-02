@@ -1,6 +1,6 @@
 {
   "name": "tzdata",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",
