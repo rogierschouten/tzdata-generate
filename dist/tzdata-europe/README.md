@@ -24,7 +24,7 @@ This module contains all zones of IANA TZ database file 'europe'.
 
 ## TZ Database Version
 
-2019b
+2019c
 
 ## Use
 

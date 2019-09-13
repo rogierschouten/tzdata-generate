@@ -1,6 +1,6 @@
 {
   "name": "tzdata-africa",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",
