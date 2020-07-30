@@ -21,8 +21,8 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^13.1.0",
-    "handlebars": "^4.5.3",
-    "mkdirp": "^0.5.1",
+    "handlebars": "^4.7.6",
+    "mkdirp": "^1.0.4",
     "rimraf": "^2.5.4",
     "semver": "^5.3.0"
   }
