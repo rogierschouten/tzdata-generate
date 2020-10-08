@@ -13,9 +13,7 @@ It is part of a set of similar modules:
 * tzdata-europe
 * tzdata-factory
 * tzdata-northamerica
-* tzdata-pacificnew
 * tzdata-southamerica
-* tzdata-systemv
 * tzdata-backward-utc
 
 This module contains all zones of IANA TZ database file 'asia'.
@@ -24,7 +22,7 @@ This module contains all zones of IANA TZ database file 'asia'.
 
 ## TZ Database Version
 
-2020a
+2020b
 
 ## Use
 

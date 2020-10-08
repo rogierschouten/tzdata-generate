@@ -13,9 +13,7 @@ It is part of a set of similar modules:
 * tzdata-europe
 * tzdata-factory
 * tzdata-northamerica
-* tzdata-pacificnew
 * tzdata-southamerica
-* tzdata-systemv
 * tzdata-backward-utc
 
 This module contains all zones of IANA TZ database file 'backward' that are old synonyms for Etc/UTC or Etc/GMT.
@@ -24,7 +22,7 @@ This module has peer dependency tzdata-etcetera, because the data in this module
 
 ## TZ Database Version
 
-2020a
+2020b
 
 ## Use
 
