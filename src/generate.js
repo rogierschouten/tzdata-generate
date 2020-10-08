@@ -188,6 +188,9 @@ directories.forEach((dir) => {
         } else if (deps.length === 1) {
             dependenciesDescription = "This module has peer dependency " + depsStr + ", because the data in this module has links to zones in those modules.";
         }
+        if (!zoneData[moduleName]) {
+            throw new Error(`No zone data found for 'tzdata-${moduleName}'`);
+        }
         const zones = Object.keys(zoneData[moduleName].zones).sort().join(", ");
         let modulesList = "";
         for (const zoneModule of Object.keys(zoneData)) {
