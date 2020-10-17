@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'antarctica'.
 
 ## TZ Database Version
 
-2020b
+2020c
 
 ## Use
 
