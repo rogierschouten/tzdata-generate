@@ -5,8 +5,7 @@ Generator for the tzdata-* NPM modules.
 ## Usage
 Releasing a new version:
 
-- extract tzdataXXX.tar.gz to input/tzdataXXX/
-- ./newdata.sh
+- ./newdata.sh (this will download the latest version automatically)
 - commit and check changes
 - ensure .npmrc points to world
 - sync with Github

@@ -22,7 +22,7 @@ This module has peer dependencies tzdata-africa, tzdata-southamerica, tzdata-nor
 
 ## TZ Database Version
 
-2020e
+2020f
 
 ## Use
 

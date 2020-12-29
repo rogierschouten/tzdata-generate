@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'australasia'.
 
 ## TZ Database Version
 
-2020e
+2020f
 
 ## Use
 
