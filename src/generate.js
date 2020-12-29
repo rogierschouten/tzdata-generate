@@ -48,7 +48,7 @@ if (inputDirs.length === 0) {
 }
 const inputDirName = inputDirs[inputDirs.length - 1];
 const inputDir = path.join(path.join(__dirname, "..", "input", inputDirName));
-const tzVersion = inputDirName.slice("tzdata".length, inputDirName.length);
+const tzVersion = fs.readFileSync(path.join(inputDir, "version"), "utf8").trim();
 console.log("generating for TZ version", tzVersion);
 
 const allFiles = fs.readdirSync(inputDir); // determine the tzdata modules to be generated

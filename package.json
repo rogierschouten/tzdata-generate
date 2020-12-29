@@ -8,10 +8,11 @@
   },
   "scripts": {
     "clean": "./node_modules/.bin/rimraf ./dist/**/timezone-data.json ./dist/**/tzdata*.js",
+    "download": "./download.sh",
     "generate": "node src/generate.js",
     "bundle": "node src/bundle.js",
     "build": "npm run generate && npm run bundle",
-    "all": "npm run clean && npm run build"
+    "all": "npm run clean && npm run download && npm run build"
   },
   "author": {
     "name": "Rogier Schouten",
