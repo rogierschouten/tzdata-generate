@@ -1,6 +1,6 @@
 {
   "name": "tzdata-backward-utc",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",
