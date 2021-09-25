@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'antarctica'.
 
 ## TZ Database Version
 
-2021a
+2021b
 
 ## Use
 
@@ -58,4 +58,4 @@ MIT
 
 ## Zones in This Module
 
-Antarctica/Casey, Antarctica/Davis, Antarctica/DumontDUrville, Antarctica/Mawson, Antarctica/Rothera, Antarctica/Syowa, Antarctica/Troll, Antarctica/Vostok, Indian/Kerguelen
+Antarctica/Casey, Antarctica/Davis, Antarctica/Mawson, Antarctica/Rothera, Antarctica/Troll, Antarctica/Vostok, Indian/Kerguelen
