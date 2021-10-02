@@ -1,6 +1,6 @@
 {
   "name": "tzdata-australasia",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",

@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'australasia'.
 
 ## TZ Database Version
 
-2021b
+2021c
 
 ## Use
 
@@ -58,4 +58,4 @@ MIT
 
 ## Zones in This Module
 
-Antarctica/Macquarie, Australia/Adelaide, Australia/Brisbane, Australia/Broken_Hill, Australia/Darwin, Australia/Eucla, Australia/Hobart, Australia/Lindeman, Australia/Lord_Howe, Australia/Melbourne, Australia/Perth, Australia/Sydney, Indian/Christmas, Indian/Cocos, Pacific/Apia, Pacific/Auckland, Pacific/Bougainville, Pacific/Chatham, Pacific/Chuuk, Pacific/Efate, Pacific/Fakaofo, Pacific/Fiji, Pacific/Funafuti, Pacific/Gambier, Pacific/Guadalcanal, Pacific/Guam, Pacific/Kanton, Pacific/Kiritimati, Pacific/Kosrae, Pacific/Kwajalein, Pacific/Majuro, Pacific/Marquesas, Pacific/Nauru, Pacific/Niue, Pacific/Norfolk, Pacific/Noumea, Pacific/Pago_Pago, Pacific/Palau, Pacific/Pitcairn, Pacific/Pohnpei, Pacific/Port_Moresby, Pacific/Rarotonga, Pacific/Tahiti, Pacific/Tarawa, Pacific/Tongatapu, Pacific/Wake, Pacific/Wallis
+Antarctica/DumontDUrville, Antarctica/Macquarie, Antarctica/McMurdo, Australia/Adelaide, Australia/Brisbane, Australia/Broken_Hill, Australia/Darwin, Australia/Eucla, Australia/Hobart, Australia/Lindeman, Australia/Lord_Howe, Australia/Melbourne, Australia/Perth, Australia/Sydney, Indian/Christmas, Indian/Cocos, Pacific/Apia, Pacific/Auckland, Pacific/Bougainville, Pacific/Chatham, Pacific/Chuuk, Pacific/Efate, Pacific/Fakaofo, Pacific/Fiji, Pacific/Funafuti, Pacific/Gambier, Pacific/Guadalcanal, Pacific/Guam, Pacific/Kanton, Pacific/Kiritimati, Pacific/Kosrae, Pacific/Kwajalein, Pacific/Majuro, Pacific/Marquesas, Pacific/Midway, Pacific/Nauru, Pacific/Niue, Pacific/Norfolk, Pacific/Noumea, Pacific/Pago_Pago, Pacific/Palau, Pacific/Pitcairn, Pacific/Pohnpei, Pacific/Port_Moresby, Pacific/Rarotonga, Pacific/Saipan, Pacific/Tahiti, Pacific/Tarawa, Pacific/Tongatapu, Pacific/Wake, Pacific/Wallis
