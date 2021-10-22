@@ -1,6 +1,6 @@
 {
   "name": "tzdata-southamerica",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "(Part of) the IANA time zone database as a JSON file",
   "repository": {
     "type": "git",
