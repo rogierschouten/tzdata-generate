@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'northamerica'.
 
 ## TZ Database Version
 
-2022d
+2022e
 
 ## Use
 
