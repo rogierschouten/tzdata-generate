@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'factory'.
 
 ## TZ Database Version
 
-2024a
+2024b
 
 ## Use
 
