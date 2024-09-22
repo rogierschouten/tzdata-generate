@@ -12,5 +12,6 @@ pushd ./input
 wget https://www.iana.org/time-zones/repository/releases/tzdata$1.tar.gz
 pushd ./tzdata-latest
 tar -xvf ../tzdata$1.tar.gz
+sed -i -e 's/^\(Rule[\t ]*[^\t ]*[\t ]*[^\t ]*[\t ]*[^\t ]*[\t ]*[^\t ]*[\t ]*...\)[^\t ]*/\1/' *
 popd
 popd
