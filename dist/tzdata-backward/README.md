@@ -22,7 +22,7 @@ This module has peer dependencies tzdata-australasia, tzdata-southamerica, tzdat
 
 ## TZ Database Version
 
-2024b
+2025a
 
 ## Use
 
