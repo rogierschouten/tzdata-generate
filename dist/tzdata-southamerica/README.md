@@ -22,7 +22,7 @@ This module contains all zones of IANA TZ database file 'southamerica'.
 
 ## TZ Database Version
 
-2025a
+2025b
 
 ## Use
 
@@ -58,4 +58,4 @@ MIT
 
 ## Zones in This Module
 
-America/Araguaina, America/Argentina/Buenos_Aires, America/Argentina/Catamarca, America/Argentina/Cordoba, America/Argentina/Jujuy, America/Argentina/La_Rioja, America/Argentina/Mendoza, America/Argentina/Rio_Gallegos, America/Argentina/Salta, America/Argentina/San_Juan, America/Argentina/San_Luis, America/Argentina/Tucuman, America/Argentina/Ushuaia, America/Asuncion, America/Bahia, America/Belem, America/Boa_Vista, America/Bogota, America/Campo_Grande, America/Caracas, America/Cayenne, America/Cuiaba, America/Eirunepe, America/Fortaleza, America/Guayaquil, America/Guyana, America/La_Paz, America/Lima, America/Maceio, America/Manaus, America/Montevideo, America/Noronha, America/Paramaribo, America/Porto_Velho, America/Punta_Arenas, America/Recife, America/Rio_Branco, America/Santarem, America/Santiago, America/Sao_Paulo, Antarctica/Palmer, Atlantic/South_Georgia, Atlantic/Stanley, Pacific/Easter, Pacific/Galapagos
+America/Araguaina, America/Argentina/Buenos_Aires, America/Argentina/Catamarca, America/Argentina/Cordoba, America/Argentina/Jujuy, America/Argentina/La_Rioja, America/Argentina/Mendoza, America/Argentina/Rio_Gallegos, America/Argentina/Salta, America/Argentina/San_Juan, America/Argentina/San_Luis, America/Argentina/Tucuman, America/Argentina/Ushuaia, America/Asuncion, America/Bahia, America/Belem, America/Boa_Vista, America/Bogota, America/Campo_Grande, America/Caracas, America/Cayenne, America/Coyhaique, America/Cuiaba, America/Eirunepe, America/Fortaleza, America/Guayaquil, America/Guyana, America/La_Paz, America/Lima, America/Maceio, America/Manaus, America/Montevideo, America/Noronha, America/Paramaribo, America/Porto_Velho, America/Punta_Arenas, America/Recife, America/Rio_Branco, America/Santarem, America/Santiago, America/Sao_Paulo, Antarctica/Palmer, Atlantic/South_Georgia, Atlantic/Stanley, Pacific/Easter, Pacific/Galapagos
