@@ -4,10 +4,10 @@
   "description": "Generator for all the tzdata-* packages",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rogierschouten/tzdata-generate"
+    "url": "git+https://github.com/rogierschouten/tzdata-generate.git"
   },
   "scripts": {
-    "clean": "./node_modules/.bin/rimraf ./dist/**/timezone-data.json ./dist/**/tzdata*.js",
+    "clean": "rimraf ./dist/**/timezone-data.json ./dist/**/tzdata*.js",
     "generate": "node src/generate.js",
     "bundle": "node src/bundle.js",
     "build": "npm run generate && npm run bundle"
