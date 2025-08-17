@@ -21,6 +21,9 @@ function parse(args) {
     zones: _tz.zones,
     rules: _tz.rules
   };
+  if (Object.keys(result.zones).includes("null")) {
+    delete result.zones["null"];
+  }
   console.log(JSON.stringify(result, function(key, value) {
     if (typeof(value) == "number") {
       return value.toString()
