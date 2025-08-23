@@ -67,6 +67,7 @@ const zonePaths = zoneFiles.map((file) => {
 console.log("generating data for all zones")
 const zoneData = {};
 zoneData["tzdata"] = parse(zonePaths);
+zoneData["tzdata"].version = tzVersion;
 
 // generate json data per input file
 zonePaths.forEach((zonePath, index) => {
