@@ -14,6 +14,7 @@ directories.forEach((dir) => {
     if (dir.indexOf("tzdata") === 0) {
         const dirPath = path.join(__dirname, "..", "dist", dir);
         // publish
+        cp.execSync(`npm pkg fix`, {cwd: dirPath});
         const output = cp.execSync(`npm publish --otp=${otp}`, {cwd: dirPath});
         console.log(output.toString());
     }
