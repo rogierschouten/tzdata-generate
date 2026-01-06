@@ -9,6 +9,7 @@ Releasing a new version:
 - commit and check changes
 - ensure .npmrc points to world
 - sync with Github
+- execute 'npm login' to create a 2-hour session
 - node src/publish.js <authenticator code>   (note: wait for the auth code to regenerate otherwise it will time out)
 - create a release tag
 
