@@ -22,7 +22,7 @@ This module contains all zones.
 
 ## TZ Database Version
 
-2026c
+2026d
 
 ## Use
 
