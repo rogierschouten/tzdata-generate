@@ -631,8 +631,8 @@
     function processZone(z) {
       if (!z[3]) { return; }
       var yea = parseInt(z[3], 10)
-        , mon = 11
-        , dat = 31;
+        , mon = 0
+        , dat = 1;
       //If month is there
       if (z[4]) {
         mon = SHORT_MONTHS[z[4].substr(0, 3)];
@@ -1008,7 +1008,7 @@
               //Process zone right here and replace 3rd element with the processed array.
               arr.splice(3, arr.length, processZone(arr));
               if (arr[3]) arr[3] = Date.UTC.apply(null, arr[3]);
-			  
+
 			  try {
 				arr[0] = -getBasicOffset(arr[0]);
 				}
